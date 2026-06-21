@@ -11,9 +11,9 @@ DB_NAME = os.getenv("DB_NAME", "omnichannel_metrics.db")
 
 # 💬 Twilio Gateway Integration Layer (WhatsApp Notification Engine)
 # Secure Environment Fetching Architecture to prevent GitHub API Key leaks
-TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID", "AC3217990fdd7ffc3a75347f77adb49767")
-TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN", "d8778c09b65a2709fd39ea10ff9f8bbe")
+TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID", "")
+TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN", "")
 
 # Official Sandbox Endpoint Node Protocols
 TWILIO_FROM_WHATSAPP = os.getenv("TWILIO_FROM_WHATSAPP", "whatsapp:+14155238886")
-TWILIO_TO_WHATSAPP = os.getenv("TWILIO_TO_WHATSAPP", "whatsapp:+919569270491")
+TWILIO_TO_WHATSAPP = os.getenv("TWILIO_TO_WHATSAPP", "whatsapp:+991")
